@@ -1,0 +1,31 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.25",
+   "Default View_TopLeft":"-170,-47",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port iClk -pg 1 -lvl 0 -x -20 -y 20 -defaultsOSRD
+preplace port iRst -pg 1 -lvl 0 -x -20 -y 90 -defaultsOSRD
+preplace port oTx -pg 1 -lvl 3 -x 500 -y 0 -defaultsOSRD
+preplace port iRx -pg 1 -lvl 0 -x -20 -y 150 -defaultsOSRD
+preplace port oRX_A -pg 1 -lvl 3 -x 500 -y 30 -defaultsOSRD
+preplace port oRX_B -pg 1 -lvl 3 -x 500 -y 60 -defaultsOSRD
+preplace port oADDER -pg 1 -lvl 3 -x 500 -y 90 -defaultsOSRD
+preplace port oLED_TX -pg 1 -lvl 3 -x 500 -y 120 -defaultsOSRD
+preplace inst Debounce_Switch_0 -pg 1 -lvl 1 -x 120 -y 80 -defaultsOSRD
+preplace inst uart_top_0 -pg 1 -lvl 2 -x 350 -y 80 -defaultsOSRD
+preplace netloc i_Clk_0_1 1 0 2 0 10 230J
+preplace netloc i_Switch_0_1 1 0 1 NJ 90
+preplace netloc Debounce_Switch_0_o_Switch 1 1 1 N 80
+preplace netloc uart_top_0_oTx 1 2 1 460 0n
+preplace netloc iRx_0_1 1 0 2 NJ 150 230J
+preplace netloc uart_top_0_oLED_RX_A 1 2 1 470 30n
+preplace netloc uart_top_0_oLED_RX_B 1 2 1 480 60n
+preplace netloc uart_top_0_oLED_ADDER 1 2 1 470 90n
+preplace netloc uart_top_0_oLED_TX 1 2 1 N 120
+levelinfo -pg 1 -20 120 350 500
+pagesize -pg 1 -db -bbox -sgen -100 -20 610 180
+"
+}
+0
